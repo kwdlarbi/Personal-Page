@@ -1,0 +1,29 @@
+.div
+
+.wrapper {
+    display: flex;
+    align-items: left;
+    gap: 0px; /* space between images */
+    position: relative;
+}
+
+.img1 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover; /* ensures the image covers the area */
+   
+    border-radius: 60%; /* creates the semi-circle effect */
+  
+}
+
+
+
+
+.img2 {
+    width: 200px;
+    height: 200px; /* full height image */
+    object-fit: cover;
+    border-radius: 60%; /* makes the image circular */
+    transform: translateX(-35px); /* centers the image inside the semi-circle */
+}
+
